@@ -50,6 +50,7 @@ FilterContext matrix_to_filter(const RowMatrix<double> &m)
 	for (size_t i = 0; i < m.rows(); ++i) {
 		width = std::max(width, m.row_right(i) - m.row_left(i));
 	}
+	zassert_d(width, "empty matrix");
 
 	if (width > floor_n(UINT_MAX, AlignmentOf<uint16_t>::value))
 		throw error::OutOfMemory{};
