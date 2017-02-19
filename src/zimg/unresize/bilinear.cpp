@@ -5,6 +5,7 @@
 #include <vector>
 #include "common/except.h"
 #include "common/matrix.h"
+#include "common/zassert.h"
 #include "bilinear.h"
 
 namespace zimg {
@@ -125,6 +126,8 @@ BilinearContext create_bilinear_context(unsigned in, unsigned out, double shift)
 		for (size_t i = 0; i < rows; ++i) {
 			rowsize = std::max(transpose_m.row_right(i) - transpose_m.row_left(i), rowsize);
 		}
+		zassert_d(rowsize, "empty matrix");
+
 		if (rowsize > floor_n(SIZE_MAX, AlignmentOf<float>::value))
 			throw error::OutOfMemory{};
 
