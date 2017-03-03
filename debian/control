@@ -1,7 +1,7 @@
 Source: zimg
 Priority: optional
 Maintainer: Jan Ekström <jeebjp@gmail.com>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), dh-autoreconf
 Standards-Version: 3.9.5
 Section: libs
 Homepage: https://github.com/sekrit-twc/zimg
