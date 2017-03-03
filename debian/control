@@ -1,0 +1,22 @@
+Source: zimg
+Priority: optional
+Maintainer: Jan Ekström <jeebjp@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://github.com/sekrit-twc/zimg
+#Vcs-Git: git://anonscm.debian.org/collab-maint/zimg.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/zimg.git;a=summary
+
+Package: zimg-dev
+Section: libdevel
+Architecture: any
+Depends: zimg (= ${binary:Version}), ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: zimg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
