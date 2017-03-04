@@ -8,12 +8,6 @@ Homepage: https://github.com/sekrit-twc/zimg
 #Vcs-Git: https://github.com/jeeb/zimg.git
 #Vcs-Browser: https://github.com/jeeb/zimg
 
-Package: libzimg
-Architecture: all
-Depends: libzimg2 (<< ${source:Version}.1~), ${misc:Depends}
-Description: Zimg scaling, colorspace, depth conversion library
- This is a dependency package to install libzimg2.
-
 Package: libzimg-doc
 Architecture: all
 Multi-Arch: foreign
@@ -33,7 +27,6 @@ Description: Development files for libzimg
 Package: libzimg2
 Architecture: any
 Multi-Arch: same
-Provides: libzimg
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Zimg scaling, colorspace, depth conversion library
  The "z" library implements the commonly required image processing basics of
