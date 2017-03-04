@@ -15,7 +15,8 @@ Description: Zimg scaling, colorspace, depth conversion library
  This is a dependency package to install libzimg2.
 
 Package: libzimg-doc
-Architecture: foreign
+Architecture: all
+Multi-Arch: foreign
 Section: doc
 Depends: ${misc:Depends}
 Description: Zimg scaling, colorspace, depth conversion library
