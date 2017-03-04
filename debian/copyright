@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: zimg
-Source: <url://example.com>
+Source: https://github.com/sekrit-twc/zimg
 
 Files: *
 Copyright: 2014-2017 sekrit-twc
