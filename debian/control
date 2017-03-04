@@ -11,12 +11,14 @@ Homepage: https://github.com/sekrit-twc/zimg
 Package: libzimg-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libzimg2 (= ${binary:Version}), ${misc:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: libzimg2
 Architecture: any
+Multi-Arch: same
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
