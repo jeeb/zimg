@@ -1,5 +1,5 @@
-zimg (2.4-1) unstable; urgency=low
+zimg (2.8-1) UNRELEASED; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- Jan Ekström <jeebjp@gmail.com>  Fri, 03 Mar 2017 23:59:25 +0200
+ -- Jan Ekström <jeebjp@gmail.com>  Wed, 27 Feb 2019 01:46:25 +0200
